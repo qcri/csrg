@@ -1,0 +1,60 @@
+body {
+  color: #211745;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+nav.navbar ul.navbar-nav a.nav-link {
+  color: #0081ca;
+}
+
+span.badge.badge-secondary {
+  font-size: 100%;
+}
+
+#people img {
+  max-height: 6rem;
+  width: auto;
+}
+
+#people .people-image {
+  width: 6rem;
+}
+
+#sponsors img {
+  height: 6rem;
+  width: auto;
+}
+
+.features-icons {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+
+a {
+  color: #0081ca;
+  font-weight: 800;
+}
+
+footer.footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}

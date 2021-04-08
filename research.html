@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      var shiftWindow = function () {
+        scrollBy(0, -85);
+      };
+      window.addEventListener('hashchange', shiftWindow);
+      function load() {
+        if (window.location.hash) shiftWindow();
+      }
+    </script>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Research at CSRG" />
+    <meta name="author" content="Qatar Computing Research Institute" />
+    <meta
+      name="keywords"
+      content="Cyber,Security,Research,Group,CSRG,Qatar,Computing,Research,Institute,QCRI"
+    />
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Research - CSRG" />
+    <meta
+      property="og:image"
+      content="https://qcri.github.io/csrg/img/thumbnail.jpg"
+    />
+    <meta property="og:description" content="Research at CSRG" />
+    <meta
+      property="og:url"
+      content="https://qcri.github.io/csrg/research.html"
+    />
+    <meta property="og:site_name" content="Research - CSRG" />
+
+    <link rel="icon" href="img/favicon.jpg" />
+    <link rel="apple-touch-icon" href="img/favicon.jpg" />
+
+    <title>Research - CSRG</title>
+
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-md navbar-light fixed-top bg-white"
+      id="header"
+    >
+      <a class="navbar-brand" href="https://www.qcri.org/">
+        <img src="img/logo/qcri.jpg" height="60" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li
+            class="nav-item"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show"
+          >
+            <a class="nav-link" href="index.html">Main</a>
+          </li>
+          <li
+            class="nav-item active"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show"
+          >
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li
+            class="nav-item"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show"
+          >
+            <a class="nav-link" href="#toshi">Toshi</a>
+          </li>
+          <li
+            class="nav-item"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show"
+          >
+            <a class="nav-link" href="#join_us">Join Us!</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div
+      class="jumbotron jumbotron-fluid bg-white text-center mb-0 mt-4"
+      id="home"
+    >
+      <div class="container">
+        <h1 class="display-8">
+          <a href="index.html">
+            <img src="img/logo/csrg.png" height="65" />
+          </a>
+        </h1>
+        <h5>Research</h5>
+      </div>
+    </div>
+
+    <section class="features-icons bg-light" id="about">
+      <div class="container text-left">
+        <div class="row">
+          <div class="col-sm-10 mx-auto">
+            <p class="lead m-0">
+              We work on technical, multidisciplinary aspects of cyber security
+              and its real-world applications. We collaborate with our partners on
+              research projects that support the thriving cyber security ecosystem
+              in Qatar and abroad.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-icons bg-white" id="toshi">
+      <div class="container text-left">
+        <h2 class="mb-4">Toshi</h2>
+        <p class="lead">
+          We are actively developing Toshi: A full-stack blockchain security
+          analytics platform. Toshi provides answers to high-level queries such
+          as "which Twitter accounts made Bitcoin payments to Silk Road." It
+          supports custom tags and full-text search of annotated blockchain data
+          at the address level. Toshi is designed for researchers and law
+          enforcement agencies. We used Toshi to study user anonymity, monitor
+          underground markets, and investigate financial fraud. Try it out
+          <a href="https://toshi.qcri.org" target="_blank">here</a>.
+        </p>
+        <h5 class="pb-2">Publications</h5>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">
+            <p class="m-0">
+              <a href="https://arxiv.org/abs/1809.06044" target="_blank"
+                >BlockTag: Design and applications of a tagging system for
+                blockchain analysis</a
+              >
+            </p>
+            <p class="m-0">
+              Yazan Boshmaf, Husam Al Jawaheri, and Mashael Al Sabah
+            </p>
+            <p class="m-0 font-italic">
+              Proc. of 34th International Conference on ICT Systems Security and
+              Privacy Protection
+            </p>
+            <p class="m-0">IFIP SEC &rsquo;19, Lisbon, Portugal, Jun 2019</p>
+          </li>
+          <li class="list-group-item">
+            <p class="m-0">
+              <a href="https://arxiv.org/abs/1801.07501" target="_blank"
+                >Deanonymizing Tor hidden service users through Bitcoin
+                transactions analysis</a
+              >
+            </p>
+            <p class="m-0">
+              Husam Al Jawaheri, Mashael Al Sabah, Yazan Boshmaf, and Aiman
+              Erbad
+            </p>
+            <p class="m-0 font-italic">Elsevier Computers &amp; Security</p>
+            <p class="m-0">Volume 89, Article 101684, Feb 2020</p>
+          </li>
+          <li class="list-group-item">
+            <p class="m-0">
+              <a href="https://arxiv.org/abs/1907.04002" target="_blank"
+                >Characterizing Bitcoin donations to open source software on
+                GitHub</a
+              >
+            </p>
+            <p class="m-0">
+              Yury Zhauniarovich, Yazan Boshmaf, Husam Al Jawaheri, and Mashael
+              Al Sabah
+            </p>
+            <p class="m-0 font-italic">arXiv preprint</p>
+            <p class="m-0">arXiv:1907.04002, Jul 2019</p>
+          </li>
+          <li class="list-group-item">
+            <p class="m-0">
+              <a href="https://arxiv.org/abs/1910.12244" target="_blank"
+                >Investigating MMM Ponzi scheme on Bitcoin</a
+              >
+            </p>
+            <p class="m-0">
+              Yazan Boshmaf, Charitha Elvitigala, Husam Al Jawaheri, Primal
+              Wijesekera, and Mashael Al Sabah
+            </p>
+            <p class="m-0 font-italic">
+              Proc. of 15th ACM Asia Conference on Computer and Communications
+              Security
+            </p>
+            <p class="m-0">AsiaCCS &rsquo;20, Taipei, Taiwan, Jun 2020</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="features-icons bg-light" id="join_us">
+      <div class="container text-left">
+        <h2 class="mb-4">Join Us!</h2>
+        <p class="lead">
+          We are always looking for motivated, independent researchers who are
+          passionate about cryptocurrencies and blockchain technologies. We
+          currently have open positions for Scientists, PostDocs, and Research
+          Associates.
+        </p>
+        <p class="lead m-0">
+          <a href="index.html#contact">Contact</a> us for more info.
+        </p>
+      </div>
+    </section>
+
+    <!-- <section class="features-icons bg-white" id="ack">
+      <div class="container text-left">
+        <h2 class="mb-4">Acknowledgement</h2>
+        <p class="lead mb-0">
+          Our research projects are supported in part by our <a href="index.html#partners">partners</a>.
+        </p>
+      </div>
+    </section> -->
+
+    <footer class="footer bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col h-100 text-center my-auto">
+            <small class="text-muted">
+              &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Qatar Computing Research Institute
+            </small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="lib/js/jquery.min.js"></script>
+    <script src="lib/js/popper.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('a').click(function (event) {
+        if (event.target.href == window.location.href) {
+          event.preventDefault();
+        }
+      });
+      $('#header .navbar-nav a').click(function () {
+        $('#header .navbar-nav').find('li.active').removeClass('active');
+        $(this).parent('li').addClass('active');
+      });
+    </script>
+  </body>
+</html>

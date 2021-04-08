@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      var shiftWindow = function () {
+        scrollBy(0, -85);
+      };
+      window.addEventListener('hashchange', shiftWindow);
+      function load() {
+        if (window.location.hash) shiftWindow();
+      }
+    </script>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Cyber,Security,Research,Group,CSRG,Qatar,Computing,Research,Institute,QCRI"
+    />
+    <meta name="author" content="Qatar Computing Research Institute" />
+    <meta
+      name="keywords"
+      content="Cyber,Security,Research,Group,CSRG,Qatar,Computing,Research,Institute,QCRI"
+    />
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Main - CSRG" />
+    <meta
+      property="og:image"
+      content="https://qcri.github.io/csrg/img/thumbnail.jpg"
+    />
+    <meta property="og:description" content="Cyber Security Research Group" />
+    <meta property="og:url" content="https://qcri.github.io/csrg" />
+    <meta property="og:site_name" content="CIBR" />
+
+    <link rel="icon" href="img/favicon.jpg" />
+    <link rel="apple-touch-icon" href="img/favicon.jpg" />
+
+    <title>Main - CSRG</title>
+
+    <link href="lib/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+  </head>
+
+  <body onload="load()">
+    <nav
+      class="navbar navbar-expand-md navbar-light fixed-top bg-white"
+      id="header"
+    >
+      <a class="navbar-brand" href="https://www.qcri.org">
+        <img src="img/logo/qcri.jpg" height="60" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+        aria-controls="navbarCollapse"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+          <li
+            class="nav-item active"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show"
+          >
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li
+            class="nav-item"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show"
+          >
+            <a class="nav-link" href="#news">News</a>
+          </li>
+          <li
+            class="nav-item"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show"
+          >
+            <a class="nav-link" href="#people">People</a>
+          </li>
+          <li
+            class="nav-item"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show"
+          >
+            <a class="nav-link" href="#research">Research</a>
+          </li>
+          <li
+            class="nav-item"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show"
+          >
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li
+            class="nav-item"
+            data-toggle="collapse"
+            data-target=".navbar-collapse.show"
+          >
+            <a class="nav-link" href="#partners">Partners</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div
+      class="jumbotron jumbotron-fluid bg-white text-center mb-0 mt-4"
+      id="home"
+    >
+      <div class="container">
+        <h1 class="display-8">
+          <img src="img/logo/csrg.png" height="65" />
+        </h1>
+        <h5>Cyber Security Research Group</h5>
+      </div>
+    </div>
+
+    <section class="features-icons bg-light" id="about">
+      <div class="container text-left">
+        <div class="row">
+          <div class="col-sm-10 mx-auto">
+            <p class="lead m-0">
+              As one of the main research groups at
+              <a href="https://qcri.org/" target="_blank">QCRI</a>, we focus on
+              the areas of cyber security that are the most important to Qatar
+              where existing expertise in related technologies can be leveraged
+              and readily applied.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-icons bg-white" id="news">
+      <div class="container text-left">
+        <h2 class="mb-4">News</h2>
+        <div class="row">
+          <div class="col-sm-16 mx-auto">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <span class="badge badge-secondary">New</span>
+                Recent
+                <a href="https://arxiv.org/abs/1910.12244" target="_blank"
+                  >work</a
+                >
+                on investigating MMM Ponzi scheme on Bitcoin was accepted at
+                <a href="https://asiaccs2020.cs.nthu.edu.tw/" target="_blank"
+                  >ACM Asia CCS 2020</a
+                >.
+              </li>
+              <li class="list-group-item">
+                <span class="text-muted">Read more ...</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-icons bg-light" id="people">
+      <div class="container text-left">
+        <h2>People</h2>
+        <div class="row mt-5">
+          <div class="col-sm-5 mx-auto">
+            <ul class="list-unstyled">
+              <li class="media align-items-center">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/ting_yu.jpeg"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a
+                      href="https://www.hbku.edu.qa/en/staff/ting-yu"
+                      target="_blank"
+                      >Ting Yu</a
+                    >
+                  </h6>
+                  Research Director
+                </div>
+              </li>
+              <li class="media align-items-center my-4">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/taha_sencar.jpeg"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a
+                      href="https://www.hbku.edu.qa/en/staff/husrev-taha-sencar"
+                      target="_blank"
+                      >Husrev Taha Sencar</a
+                    >
+                  </h6>
+                  Principal Scientist
+                </div>
+              </li>
+              <li class="media align-items-center my-4">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/yazan_boshmaf.jpg"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="https://boshmaf.com" target="_blank"
+                      >Yazan Boshmaf</a
+                    >
+                  </h6>
+                  Scientist
+                </div>
+              </li>
+              <li class="media align-items-center my-4">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/alley.png"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a
+                      href="https://www.hbku.edu.qa/en/staff/dr-euijin-alley-choo"
+                      target="_blank"
+                      >Euijin Alley Choo</a
+                    >
+                  </h6>
+                  Postdoctoral Researcher
+                </div>
+              </li>
+              <li class="media align-items-center my-4">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/female.jpg"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a
+                      href="https://www.hbku.edu.qa/en/staff/sanaa-al-farsi"
+                      target="_blank"
+                      >Sanaa Al Farsi</a
+                    >
+                  </h6>
+                  Senior Software Engineer
+                </div>
+              </li>
+              <li class="media align-items-center my-4">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/isuranga.jpeg"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a
+                      href="https://lk.linkedin.com/in/isuranga-perera-aa16a810b"
+                      target="_blank"
+                      >Isuranga Perera</a
+                    >
+                  </h6>
+                  Research Associate
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-sm-5 mx-auto">
+            <ul class="list-unstyled">
+              <li class="media align-items-center">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/issa_khalil.png"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a
+                      href="https://www.hbku.edu.qa/en/staff/issa-khalil"
+                      target="_blank"
+                      >Issa Khalil</a
+                    >
+                  </h6>
+                  Principal Scientist
+                </div>
+              </li>
+              <li class="media align-items-center my-4">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/female.jpg"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a
+                      href="https://scholar.google.com/citations?user=rGIv25EAAAAJ"
+                      target="_blank"
+                      >Mashael Al Sabah</a
+                    >
+                  </h6>
+                  Senior Scientist
+                </div>
+              </li>
+              <li class="media align-items-center my-4">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/mohamed_nabeel.png"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a
+                      href="https://www.hbku.edu.qa/en/staff/dr-mohamed-nabeel"
+                      target="_blank"
+                      >Mohamed Nabeel</a
+                    >
+                  </h6>
+                  Scientist
+                </div>
+              </li>
+              <li class="media align-items-center my-4">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/aref.jpeg"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a
+                      href="https://www.linkedin.com/in/aref-al-tamimi-02a93723/"
+                      target="_blank"
+                      >Aref Al Tamimi</a
+                    >
+                  </h6>
+                  Senior Software Engineer
+                </div>
+              </li>
+              <li class="media align-items-center my-4">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/minhaj.jpeg"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a
+                      href="https://www.hbku.edu.qa/en/staff/minhaj-ahmad"
+                      target="_blank"
+                      >Minhaj Ahmad
+                    </a>
+                  </h6>
+                  Software Engineer
+                </div>
+              </li>
+              <li class="media align-items-center my-4">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/priyanka_dodia.png"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a
+                      href="https://www.hbku.edu.qa/en/staff/priyanka-g-dodia"
+                      target="_blank"
+                      >Priyanka G Dodia</a
+                    >
+                  </h6>
+                  Research Associate
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <h4 class="mt-3 font-italic">Alumni</h4>
+        <div class="row mt-5">
+          <div class="col-sm-5 mx-auto">
+            <ul class="list-unstyled">
+              <li class="media align-items-center">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/yury.jpg"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="http://www.zhauniarovich.com" target="_blank"
+                      >Yury Zhauniarovich</a
+                    >
+                  </h6>
+                  Scientist
+                </div>
+              </li>
+              <li class="media align-items-center my-4">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/al-jawaheri.jpg"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a
+                      href="https://scholar.google.com/citations?user=jo1jpdMAAAAJ"
+                      target="_blank"
+                      >Husam Al Jawaheri</a
+                    >
+                  </h6>
+                  Research Assistant
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-sm-5 mx-auto">
+            <ul class="list-unstyled">
+              <li class="media align-items-center">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/hasan.jpeg"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a href="https://github.com/Hasan-Jawaheri" target="_blank"
+                      >Hasan Al Jawaheri</a
+                    >
+                  </h6>
+                  Research Assistant
+                </div>
+              </li>
+              <li class="media align-items-center my-4">
+                <div class="people-image mr-3">
+                  <img
+                    class="mx-auto rounded-circle d-block"
+                    src="img/people/ahmed.jpeg"
+                  />
+                </div>
+                <div class="media-body">
+                  <h6 class="mt-0 mb-1">
+                    <a
+                      href="https://qa.linkedin.com/in/ahmedalsaadi"
+                      target="_blank"
+                      >Ahmed Al Saadi</a
+                    >
+                  </h6>
+                  Software Engineer
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-icons bg-white" id="research">
+      <div class="container text-left">
+        <h2>Research</h2>
+        <div class="row mt-4">
+          <div class="col-sm-8 mx-auto">
+            <p class="lead">
+              Our research is focused on technical, multidisciplinary aspects of
+              cyber security and its real-world applications. Our research
+              priorities are:
+            </p>
+            <ul class="lead">
+              <li>
+                To predict, overcome and prevent the next generation of
+                cyber-attacks on Qatar's critical infrastructure.
+              </li>
+              <li>
+                To ensure preparedness for emerging cyber threats is addressed
+                as part of the nation’s security.
+              </li>
+            </ul>
+            <p class="lead">
+              We collaborate with our partners on research projects that support the
+              thriving cyber security ecosystem in Qatar and abroad.
+            </p>
+            <p class="lead m-0">
+              Visit our <a href="research.html">research page.</a>
+            </p>
+          </div>
+          <div class="col-sm-2 mx-auto d-none d-md-block">
+            <img
+              class="mx-auto"
+              src="img/icons/idea.png"
+              style="max-height: 7rem"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-icons bg-light" id="contact">
+      <div class="container text-left">
+        <h2>Contact</h2>
+        <div class="row mt-4">
+          <div class="col-sm-8 mx-auto">
+            <p class="lead">
+              We are always looking for feedback and opportunities to
+              collaborate. We strive to have a positive impact with real-world
+              applications of our research.
+            </p>
+            <p class="lead m-0">
+              Send us an <a href="mailto:tyu@hbku.edu.qa">email.</a>
+            </p>
+          </div>
+          <div class="col-sm-2 mx-auto d-none d-md-block">
+            <img
+              class="mx-auto"
+              src="img/icons/contact.png"
+              style="max-height: 7rem"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="features-icons bg-whote" id="partners">
+      <div class="container text-left">
+        <h2>Partners</h2>
+        <div class="row mt-4">
+          <div class="col-xl-2 col-lg-4 col-sm-6 col-12 mb-lg-5 mb-xl-0">
+            <div class="mt-2 mb-5 mb-lg-0">
+              <a href="https://www.qnrf.org" target="_blank">
+                <img
+                  class="mb-3 mx-auto d-block"
+                  height="80"
+                  src="img/partners/qnrf.jpg"
+                />
+                <h6 class="text-center">Qatar National Research Fund</h6>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-sm-6 col-12 mb-lg-5 mb-xl-0">
+            <div class="mt-2 mb-5 mb-lg-0">
+              <a href="http://www.qcb.gov.qa" target="_blank">
+                <img
+                  class="mb-3 mx-auto d-block"
+                  height="80"
+                  src="img/partners/qcb.jpg"
+                />
+                <h6 class="text-center">Qatar Central Bank</h6>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-sm-6 col-12 mb-lg-5 mb-xl-0">
+            <div class="mt-2 mb-5 mb-lg-0">
+              <a href="http://www.qfcra.com" target="_blank">
+                <img
+                  class="mb-3 mx-auto d-block"
+                  height="80"
+                  src="img/partners/qfcra.jpg"
+                />
+                <h6 class="text-center">
+                  Qatar Financial Center Regulatory Authority
+                </h6>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-sm-6 col-12 mb-lg-5 mb-xl-0">
+            <div class="mt-2 mb-5 mb-lg-0">
+              <a href="https://portal.moi.gov" target="_blank">
+                <img
+                  class="mb-3 mx-auto d-block"
+                  height="80"
+                  src="img/partners/moi.jpg"
+                />
+                <h6 class="text-center">Qatar Ministry of Interior</h6>
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-4 col-sm-6 col-12 mb-lg-5 mb-xl-0">
+            <div class="mt-2 mb-5 mb-lg-0">
+              <a href="https://peckshield.com" target="_blank">
+                <img
+                  class="mb-3 mx-auto d-block"
+                  height="80"
+                  src="img/partners/peckshield.jpg"
+                />
+                <h6 class="text-center">PeckShield</h6>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col h-100 text-center my-auto">
+            <small class="text-muted">
+              &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              Qatar Computing Research Institute
+            </small>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="lib/js/jquery.min.js"></script>
+    <script src="lib/js/popper.min.js"></script>
+    <script src="lib/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $('a').click(function (event) {
+        if (event.target.href == window.location.href) {
+          event.preventDefault();
+        }
+      });
+      $('#header .navbar-nav a').click(function () {
+        if ($(this).parent('li.active').length == 0) {
+          $('#header .navbar-nav').find('li.active').removeClass('active');
+          $(this).parent('li').addClass('active');
+        }
+      });
+    </script>
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-128057597-1"
+    ></script>
+    <script type="text/javascript">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-128057597-1');
+    </script>
+  </body>
+</html>
