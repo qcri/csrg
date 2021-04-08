@@ -1,6 +1,6 @@
 body {
   color: #211745;
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   min-height: 75rem;
   padding-top: 4.5rem;
 }
@@ -29,6 +29,10 @@ span.badge.badge-secondary {
 
 #people .people-image {
   width: 6rem;
+}
+
+#people .bordered-image {
+  border: 1px solid lightgray;
 }
 
 #sponsors img {
